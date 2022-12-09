@@ -11,3 +11,14 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo systemctl status docker 
+
+
+
+
+docker ps
+dosker pull images
+docker run -itd images id
+login to docker container
+docker exec -it <CONTAINERid> bash
+docker stop $(docker ps -a -q) >> to stop all containers
+docker rmi $(docker images -a -q) >>> to delate from all images 
