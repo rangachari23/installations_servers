@@ -22,3 +22,4 @@ login to docker container
 docker exec -it <CONTAINERid> bash
 docker stop $(docker ps -a -q) >> to stop all containers
 docker rmi $(docker images -a -q) >>> to delate from all images 
+docker run -itd --name -p <imagesname> 8080:8080 <containerid>
